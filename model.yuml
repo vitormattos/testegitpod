@@ -1,0 +1,6 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+[Pessoa|+nome;+telefone;+email]<-[Estudante|+disciplinasMatriculadas()]
+[Pessoa]<-[Professor|+disciplinasLecionadas()]
